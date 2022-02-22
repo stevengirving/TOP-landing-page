@@ -10,7 +10,7 @@
   * [Usage](#usage)
   * [Questions](#questions)
   ## Usage
-  *Instructions and/or Examples for utilizing the project:*
+Desired page outcome:
 
   
 

@@ -2,9 +2,69 @@
     --button: #3882F6;
     --dark-background: #1F2937;
     --main-text: #F9FAF8;
-    
+    --secondary-text: #E5E7EB;
+    --header-info: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
 }
 
 body {
-    color: var(--button);
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.section {
+    flex-direction: row;
+    height: 20%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.one,
+.five {
+    background-color: var(--dark-background);
+}
+
+.section .logo {
+    font-size: 50px;
+}
+
+.logo {
+    display: inline-flex;
+    
+}
+
+.links {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.one {
+
+}
+
+.two,
+.four {
+    background-color: white;
+}
+
+.three {
+    background-color: var(--quote-background);
+    color: var(--quote-text);
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.four {
+    background-color: white;
+}
+
+.five {
+
+}
+
+.button {
+    background-color: var(--button);
 }
